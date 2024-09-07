@@ -18,9 +18,6 @@ try {
 
   const baseURL = process.env.BASE_URL || '/'
 
-  // Serve static frontend files from the 'frontend' folder
-  app.use(express.static(join(directoryFullName, '..', 'frontend')))
-
 
   // Parse requests of the content type application/x-www-form-urlencoded.
   // Populates the request object with a body object (req.body).
