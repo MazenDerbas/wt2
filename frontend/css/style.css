@@ -1,0 +1,82 @@
+body {
+    background-color: #f8f9fa;
+}
+
+#consumptionChart, #productionChart {
+    width: 100%;         
+    max-width: 500px;  
+    height: auto;       
+    margin: 20px auto; 
+}
+
+h1 {
+    text-align: center;  
+    margin-top: 20px;  
+    margin-bottom: 20px;
+    background-color: #343a40;
+    color: #ffffff
+}
+
+
+.search-container {
+    text-align: right;   
+    padding: 10px;      
+    margin-bottom: 20px; 
+}
+
+#search-box {
+    width: 250px;     
+    padding: 10px;      
+    margin-right: 10px;
+    border: 1px solid #ced4da;
+    background-color: #ffffff  
+}
+
+#search-btn {
+    padding: 10px 20px; 
+    cursor: pointer;     
+    background-color: #007bff; 
+    color: white;      
+    border: none;       
+    border-radius: 5px;  
+}
+
+.container {
+    background-color: #e9ecef; 
+    padding: 20px;     
+    border-radius: 8px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.consumption_container {
+    background-color: #e9ecef; 
+    padding: 20px;     
+    border-radius: 8px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.hidden {
+    display: none;
+}
+
+#pagination-controls {
+    display: flex;               
+    justify-content: center;     
+    gap: 10px;                   
+    margin-top: 20px;            
+}
+
+button {
+    padding: 10px 20px; 
+    cursor: pointer;     
+    background-color: #007bff; 
+    color: white;      
+    border: none;       
+    border-radius: 5px;  
+
+}
+
+button:disabled {
+    background-color: #add8e6;
+    opacity: 0.6; 
+}
